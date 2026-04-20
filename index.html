@@ -1,0 +1,1002 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Rohan Paliwal — Senior Product Manager · Fintech, B2B2C, Platform</title>
+  <meta name="description" content="Rohan Paliwal — Manager, Product Management at Western Union. Grew WU Rewards from $1M to $7M ARR across 10+ markets. O-1A visa holder. CMU alum. PM Coach at Leland (5.0 rating). Targeting Senior PM roles in fintech, B2B2C, and platform." />
+  <meta name="author" content="Rohan Paliwal" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <link rel="canonical" href="https://rohanpaliwal.com/" />
+
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="Rohan Paliwal — Senior Product Manager" />
+  <meta property="og:description" content="Manager, Product Management at Western Union. Fintech · B2B2C · Platform." />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230a0a0a'/%3E%3Ctext x='16' y='22' font-family='system-ui' font-size='18' font-weight='600' fill='%23ffffff' text-anchor='middle'%3ER%3C/text%3E%3Ccircle cx='24' cy='9' r='2.5' fill='%23ff5a1f'/%3E%3C/svg%3E" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Rohan Paliwal",
+    "jobTitle": "Manager, Product Management",
+    "email": "mailto:Paliwalrohan39@gmail.com",
+    "url": "https://rohanpaliwal.com/",
+    "address": { "@type": "PostalAddress", "addressLocality": "Miami", "addressRegion": "FL", "addressCountry": "US" },
+    "sameAs": [
+      "https://www.linkedin.com/in/paliwalrohan/",
+      "https://www.productledalliance.com/author/rohan/",
+      "https://www.joinleland.com/coach/rohan-p-3/product-management"
+    ],
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Carnegie Mellon University" },
+      { "@type": "CollegeOrUniversity", "name": "Manipal Institute of Technology" }
+    ],
+    "worksFor": { "@type": "Organization", "name": "Western Union" }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --bg: #fafafa;
+      --bg-alt: #f4f4f5;
+      --ink: #0a0a0a;
+      --ink-2: #171717;
+      --ink-3: #404040;
+      --muted: #737373;
+      --rule: #e5e5e5;
+      --rule-2: #d4d4d4;
+      --accent: #ff5a1f;
+      --accent-soft: #fff1ea;
+      --white: #ffffff;
+
+      --font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+      --max: 1120px;
+      --gutter: clamp(20px, 4vw, 40px);
+      --radius: 8px;
+    }
+
+    *,*::before,*::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font);
+      font-size: 15.5px;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+    img { max-width: 100%; display: block; }
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; cursor: pointer; border: none; background: none; color: inherit; padding: 0; }
+    ::selection { background: var(--accent); color: var(--white); }
+
+    .container { max-width: var(--max); margin: 0 auto; padding-inline: var(--gutter); }
+    .section { padding-block: clamp(64px, 8vw, 96px); }
+    .section + .section { border-top: 1px solid var(--rule); }
+
+    .eyebrow {
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      font-weight: 500;
+    }
+    .eyebrow::before {
+      content: ""; display: inline-block;
+      width: 8px; height: 8px; background: var(--accent);
+      margin-right: 10px; vertical-align: middle;
+      border-radius: 1px;
+    }
+
+    h1, h2, h3, h4 { font-family: var(--font); font-weight: 600; color: var(--ink); margin: 0; letter-spacing: -.02em; line-height: 1.15; }
+    h1 { font-size: clamp(36px, 5.2vw, 60px); letter-spacing: -.035em; line-height: 1.05; }
+    h2 { font-size: clamp(26px, 3.2vw, 36px); letter-spacing: -.028em; }
+    h3 { font-size: clamp(18px, 2vw, 22px); letter-spacing: -.015em; }
+    p { margin: 0 0 1em; color: var(--ink-3); }
+
+    /* Nav */
+    .nav { position: sticky; top: 0; z-index: 50; background: rgba(250,250,250,.85); backdrop-filter: saturate(180%) blur(12px); -webkit-backdrop-filter: saturate(180%) blur(12px); border-bottom: 1px solid var(--rule); }
+    .nav-inner { max-width: var(--max); margin: 0 auto; padding: 14px var(--gutter); display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .logo { font-weight: 600; font-size: 15px; display: inline-flex; align-items: center; gap: 8px; }
+    .logo::before { content: ""; width: 7px; height: 7px; background: var(--accent); border-radius: 1px; display: inline-block; }
+    .nav-links { display: flex; gap: 24px; font-size: 13.5px; color: var(--ink-3); }
+    .nav-links a:hover { color: var(--ink); }
+    .nav-cta { font-size: 13px; padding: 8px 14px; background: var(--ink); color: var(--white); border-radius: 6px; font-weight: 500; transition: background .2s; }
+    .nav-cta:hover { background: var(--accent); }
+    @media (max-width: 760px) { .nav-links { display: none; } }
+
+    /* Status pill */
+    .status { display: inline-flex; align-items: center; gap: 8px; padding: 5px 12px 5px 10px; background: var(--white); border: 1px solid var(--rule); border-radius: 999px; font-size: 12.5px; color: var(--ink-3); font-weight: 450; }
+    .status-dot { width: 7px; height: 7px; background: #10b981; border-radius: 50%; box-shadow: 0 0 0 3px rgba(16,185,129,.15); animation: pulse 2.2s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { box-shadow: 0 0 0 3px rgba(16,185,129,.15); } 50% { box-shadow: 0 0 0 6px rgba(16,185,129,.08); } }
+    .status strong { color: var(--ink); font-weight: 500; }
+
+    /* Hero - Minimal (Variant C, locked) */
+    .hero { padding-top: clamp(48px, 6vw, 72px); padding-bottom: clamp(48px, 6vw, 72px); text-align: center; }
+    .headshot {
+      width: 160px; height: 160px; border-radius: 50%; object-fit: cover;
+      margin: 0 auto 24px; display: block;
+      border: 3px solid var(--white); box-shadow: 0 4px 16px rgba(0,0,0,.08);
+    }
+    .hero h1 { margin-top: 8px; font-size: clamp(44px, 6.5vw, 72px); letter-spacing: -.04em; }
+    .hero h1 strong { color: var(--accent); font-weight: 600; }
+    .hero .tag {
+      margin-top: 16px; font-size: clamp(18px, 2.1vw, 22px);
+      color: var(--ink-2); font-weight: 500; max-width: 24ch; margin-inline: auto;
+    }
+    .hero .desc {
+      margin-top: 20px; font-size: 15px; color: var(--ink-3);
+      max-width: 54ch; margin-inline: auto; line-height: 1.6;
+    }
+
+    .cta-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; justify-content: center; }
+    .btn { display: inline-flex; align-items: center; gap: 8px; padding: 10px 18px; border-radius: 6px; font-size: 14px; font-weight: 500; transition: background .2s, color .2s, border-color .2s; border: 1px solid transparent; }
+    .btn-primary { background: var(--ink); color: var(--white); }
+    .btn-primary:hover { background: var(--accent); }
+    .btn-ghost { background: var(--white); border-color: var(--rule); color: var(--ink); }
+    .btn-ghost:hover { border-color: var(--ink); }
+    .btn svg { width: 14px; height: 14px; }
+
+    /* Section head */
+    .sec-head { margin-bottom: clamp(28px, 4vw, 40px); max-width: 64ch; }
+    .sec-head h2 { margin-top: 10px; }
+    .sec-head p { margin-top: 12px; font-size: 15.5px; color: var(--ink-3); max-width: 58ch; }
+
+    /* About */
+    .about-stats {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px;
+      margin-bottom: 40px;
+    }
+    .stat-box {
+      text-align: center; padding: 28px 20px;
+      background: var(--white); border: 1px solid var(--rule); border-radius: var(--radius);
+    }
+    .stat-num {
+      font-size: clamp(36px, 4.5vw, 48px); font-weight: 700;
+      color: var(--accent); line-height: 1; font-feature-settings: "tnum";
+      font-family: var(--font);
+    }
+    .stat-num span { font-size: .6em; }
+    .stat-lbl {
+      font-family: var(--mono); font-size: 11px; color: var(--muted);
+      letter-spacing: .08em; text-transform: uppercase; margin-top: 10px;
+    }
+
+    .about-grid { display: grid; grid-template-columns: 1fr; gap: 40px; }
+    @media (min-width: 880px) { .about-grid { grid-template-columns: 1fr 1fr; gap: 56px; } }
+    .about-body p { font-size: 15.5px; line-height: 1.65; color: var(--ink-3); margin-bottom: 14px; }
+    .about-body p strong { color: var(--ink); font-weight: 500; }
+    .about-side { padding: 24px; background: var(--white); border: 1px solid var(--rule); border-radius: var(--radius); align-self: start; }
+    .about-side h4 { font-size: 13px; margin-bottom: 14px; color: var(--muted); font-family: var(--mono); font-weight: 500; letter-spacing: .06em; text-transform: uppercase; }
+    .about-side ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+    .about-side li { font-size: 13.5px; color: var(--ink-2); display: grid; grid-template-columns: 100px 1fr; gap: 12px; padding-block: 8px; border-top: 1px solid var(--rule); }
+    .about-side li:first-child { border-top: 0; padding-top: 0; }
+    .about-side li .k { color: var(--muted); font-family: var(--mono); font-size: 11px; letter-spacing: .04em; text-transform: uppercase; padding-top: 1px; }
+    .about-side li .v { color: var(--ink-2); font-weight: 450; }
+    .about-side li .v strong { color: var(--ink); font-weight: 500; }
+
+    /* Experience — collapsible */
+    .exp-hint { font-family: var(--mono); font-size: 11px; color: var(--muted); letter-spacing: .04em; margin-bottom: 14px; }
+    .exp-hint button { color: var(--accent); font-family: var(--mono); font-weight: 500; }
+    .exp-hint button:hover { text-decoration: underline; }
+
+    .exp { display: grid; gap: 0; }
+    .exp-item {
+      border-top: 1px solid var(--rule);
+    }
+    .exp-item:last-child { border-bottom: 1px solid var(--rule); }
+
+    .exp-summary {
+      width: 100%; text-align: left; cursor: pointer;
+      padding: 20px 0;
+      display: grid; grid-template-columns: 44px 1fr auto; gap: 16px; align-items: center;
+      transition: padding-left .25s ease;
+    }
+    .exp-summary:hover { padding-left: 8px; }
+    .exp-summary .co-logo {
+      width: 44px; height: 44px; border-radius: 8px;
+      background: var(--bg-alt); display: flex; align-items: center; justify-content: center;
+      overflow: hidden; flex-shrink: 0;
+    }
+    .exp-summary .co-logo img { width: 100%; height: 100%; object-fit: contain; padding: 4px; }
+    .exp-main { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+    .exp-main .role { font-size: 15.5px; font-weight: 600; color: var(--ink); letter-spacing: -.01em; line-height: 1.3; }
+    .exp-main .co-line { font-size: 13.5px; color: var(--ink-3); line-height: 1.3; }
+    .exp-main .co-line strong { color: var(--ink-2); font-weight: 500; }
+    .exp-main .co-line .sep { color: var(--rule-2); margin: 0 6px; }
+    .exp-meta { display: flex; flex-direction: column; gap: 2px; align-items: flex-end; font-family: var(--mono); font-size: 11px; color: var(--muted); letter-spacing: .02em; flex-shrink: 0; }
+    .exp-chev {
+      display: inline-block; color: var(--accent); font-size: 18px; font-weight: 400;
+      transition: transform .3s ease; margin-left: 8px;
+    }
+    .exp-item.open .exp-chev { transform: rotate(45deg); }
+
+    .exp-body {
+      display: none;
+      padding: 4px 0 24px 60px;
+    }
+    .exp-item.open .exp-body { display: block; }
+    @media (max-width: 640px) {
+      .exp-summary { grid-template-columns: 40px 1fr; }
+      .exp-meta { grid-column: 2; align-items: flex-start; margin-top: 4px; }
+      .exp-body { padding-left: 0; }
+      .exp-summary .co-logo { width: 40px; height: 40px; }
+    }
+    .exp-bullets { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+    .exp-bullets li { font-size: 14px; color: var(--ink-3); padding-left: 16px; position: relative; line-height: 1.55; }
+    .exp-bullets li::before { content: ""; position: absolute; left: 0; top: 9px; width: 6px; height: 6px; border: 1.5px solid var(--accent); border-radius: 50%; }
+    .exp-bullets li strong { color: var(--ink); font-weight: 500; }
+
+    /* Skills — text + dots */
+    .skills-list { display: grid; gap: 24px; max-width: 700px; }
+    .skill-item { }
+    .skill-header { display: flex; align-items: center; margin-bottom: 8px; gap: 16px; }
+    .skill-header h4 { font-size: 15.5px; font-weight: 600; color: var(--ink); margin: 0; display: flex; align-items: center; gap: 10px; }
+    .skill-dots-inline { display: flex; gap: 4px; }
+    .skill-dots-inline .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--rule); }
+    .skill-dots-inline .dot.filled { background: var(--accent); }
+    .skill-item p { font-size: 14px; color: var(--ink-3); margin: 0; line-height: 1.55; }
+
+    .tools { margin-top: 36px; padding-top: 28px; border-top: 1px solid var(--rule); display: grid; gap: 14px; grid-template-columns: 1fr; }
+    @media (min-width: 720px) { .tools { grid-template-columns: 1fr; gap: 14px; } }
+    .tools h4 { font-family: var(--mono); font-size: 11px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); text-align: center; }
+    .tool-items { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: center; }
+    .tool-item { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+    .tool-item img { height: 28px; width: auto; opacity: .85; transition: opacity .2s; }
+    .tool-item:hover img { opacity: 1; }
+    .tool-item span { font-family: var(--mono); font-size: 10px; color: var(--muted); letter-spacing: .03em; text-align: center; }
+
+    /* Coach */
+    .coach {
+      background: var(--ink); color: var(--white);
+      border-radius: var(--radius); padding: clamp(28px, 4vw, 40px);
+      display: grid; grid-template-columns: 1fr; gap: 28px;
+    }
+    @media (min-width: 820px) { .coach { grid-template-columns: 1fr 1fr; gap: 44px; align-items: center; } }
+    .coach .eyebrow { color: var(--accent); }
+    .coach .eyebrow::before { background: var(--accent); }
+    .coach h3 { color: var(--white); font-size: clamp(20px, 2.2vw, 26px); margin-top: 12px; letter-spacing: -.02em; line-height: 1.25; }
+    .coach p { color: rgba(255,255,255,.72); font-size: 14.5px; margin: 14px 0 0; line-height: 1.6; }
+    .coach-stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-top: 22px; }
+    @media (max-width: 720px) { .coach-stats { grid-template-columns: 1fr; } }
+    .coach-stat { padding: 14px; background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.1); border-radius: 6px; text-decoration: none; color: inherit; display: flex; flex-direction: column; align-items: center; }
+    .coach-stat:hover { background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.2); }
+    .coach-stat img { transition: opacity .2s; }
+    .coach-stat:hover img { opacity: 1; }
+    .coach-stat { padding: 14px; background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.1); border-radius: 6px; }
+    .coach-stat strong { font-size: 20px; font-weight: 600; color: var(--white); display: block; letter-spacing: -.02em; font-feature-settings: "tnum"; }
+    .coach-stat strong em { font-style: normal; color: var(--accent); }
+    .coach-stat span { font-family: var(--mono); font-size: 10.5px; color: rgba(255,255,255,.55); letter-spacing: .06em; text-transform: uppercase; }
+    .coach-placed { margin-top: 20px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,.12); }
+    .coach-placed .label { font-family: var(--mono); font-size: 10.5px; color: rgba(255,255,255,.55); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 12px; }
+    .coach-placed-list { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+    .coach-placed-list img { height: 20px; width: auto; opacity: .85; filter: brightness(0) invert(1); }
+    .coach-cta { margin-top: 22px; }
+    .coach-cta .btn-primary { background: var(--accent); color: var(--white); }
+    .coach-cta .btn-primary:hover { background: var(--white); color: var(--ink); }
+
+    /* Writing list */
+    .writings { display: grid; gap: 0; }
+    .writing {
+      display: grid; grid-template-columns: 1fr auto; gap: 12px;
+      padding-block: 18px; border-top: 1px solid var(--rule);
+      transition: padding-left .25s ease;
+    }
+    .writing:last-child { border-bottom: 1px solid var(--rule); }
+    .writing:hover { padding-left: 10px; }
+    .writing .left { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+    .writing h3 { font-size: 15px; line-height: 1.35; font-weight: 500; }
+    .writing .meta { display: flex; align-items: center; gap: 8px; font-family: var(--mono); font-size: 11px; color: var(--muted); }
+    .writing .meta .sep { color: var(--rule-2); }
+    .writing .arrow { color: var(--muted); font-size: 16px; align-self: center; flex-shrink: 0; }
+    .writing:hover .arrow { color: var(--accent); }
+
+    /* Education cards with real logos */
+    .edu-grid { display: grid; grid-template-columns: 1fr; gap: 14px; margin-top: 28px; }
+    @media (min-width: 720px) { .edu-grid { grid-template-columns: 1fr 1fr; } }
+    .edu-card {
+      display: grid; grid-template-columns: 56px 1fr; gap: 14px;
+      padding: 20px; background: var(--white); border: 1px solid var(--rule); border-radius: var(--radius);
+    }
+    .edu-logo {
+      width: 56px; height: 56px; border-radius: 8px;
+      background: var(--bg-alt); display: flex; align-items: center; justify-content: center;
+      overflow: hidden; flex-shrink: 0;
+    }
+    .edu-logo img { width: 100%; height: 100%; object-fit: contain; padding: 6px; }
+    .edu-body h4 { font-size: 15px; font-weight: 600; margin-bottom: 4px; }
+    .edu-body .school { font-size: 13px; color: var(--ink-2); font-weight: 500; margin-bottom: 2px; }
+    .edu-body .years { font-family: var(--mono); font-size: 11px; color: var(--muted); margin-bottom: 8px; letter-spacing: .02em; }
+    .edu-body p { font-size: 13px; color: var(--ink-3); margin: 0; line-height: 1.5; }
+    .edu-body .gpa { margin-top: 8px; display: inline-block; font-family: var(--mono); font-size: 11px; color: var(--accent); font-weight: 500; padding: 3px 8px; background: var(--accent-soft); border-radius: 4px; }
+
+    /* Creds mini (extras) */
+    .creds-mini { display: grid; gap: 10px; grid-template-columns: 1fr; margin-top: 16px; }
+    @media (min-width: 720px) { .creds-mini { grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 1080px) { .creds-mini { grid-template-columns: repeat(4, 1fr); } }
+    .cred-mini { padding: 14px 16px; background: var(--white); border: 1px solid var(--rule); border-radius: var(--radius); }
+    .cred-mini .label { font-family: var(--mono); font-size: 10px; color: var(--accent); letter-spacing: .1em; text-transform: uppercase; font-weight: 500; }
+    .cred-mini h4 { font-size: 13.5px; margin: 6px 0 3px; font-weight: 500; }
+    .cred-mini p { font-size: 12.5px; color: var(--ink-3); margin: 0; line-height: 1.5; }
+
+    /* Contact */
+    .contact { background: var(--ink); color: var(--white); }
+    .contact h2 { color: var(--white); }
+    .contact h2 strong { color: var(--accent); font-weight: 600; }
+    .contact .sub { color: rgba(255,255,255,.72); font-size: 15.5px; margin-top: 16px; max-width: 56ch; line-height: 1.6; }
+    .contact-grid { display: grid; grid-template-columns: 1fr; gap: 28px; margin-top: 40px; }
+    @media (min-width: 900px) { .contact-grid { grid-template-columns: 1.1fr .9fr; gap: 48px; } }
+
+    .contact-links { display: grid; gap: 0; }
+    .contact-link { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 16px; padding-block: 18px; border-top: 1px solid rgba(255,255,255,.12); transition: padding-left .3s ease, border-color .3s ease; }
+    .contact-link:last-child { border-bottom: 1px solid rgba(255,255,255,.12); }
+    .contact-link:hover { padding-left: 10px; border-top-color: var(--accent); }
+    .contact-link .k { font-family: var(--mono); font-size: 10.5px; color: rgba(255,255,255,.55); letter-spacing: .08em; text-transform: uppercase; display: block; margin-bottom: 3px; }
+    .contact-link .v { font-size: 16.5px; font-weight: 500; color: var(--white); }
+    .contact-link .arrow { color: var(--accent); font-size: 18px; transition: transform .3s ease; }
+    .contact-link:hover .arrow { transform: translate(3px, -3px); }
+
+    .recruiter { background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.12); padding: 22px; border-radius: var(--radius); }
+    .recruiter .eyebrow { color: var(--accent); }
+    .recruiter .eyebrow::before { background: var(--accent); }
+    .recruiter h3 { color: var(--white); font-size: 16.5px; margin-top: 10px; font-weight: 500; }
+    .recruiter ul { list-style: none; padding: 0; margin: 12px 0 0; display: grid; gap: 6px; }
+    .recruiter li { font-size: 13px; color: rgba(255,255,255,.82); padding-left: 16px; position: relative; line-height: 1.5; }
+    .recruiter li::before { content: ""; position: absolute; left: 0; top: 9px; width: 8px; height: 1px; background: var(--accent); }
+
+    /* FAQ - collapsed by default */
+    .faq-wrap { margin-top: clamp(44px, 6vw, 60px); }
+    .faq-wrap h3 { color: var(--white); font-size: clamp(20px, 2.2vw, 24px); margin-top: 10px; font-weight: 500; }
+    .faq { margin-top: 20px; display: grid; gap: 0; }
+    .faq details { border-top: 1px solid rgba(255,255,255,.12); padding-block: 16px; }
+    .faq details:last-of-type { border-bottom: 1px solid rgba(255,255,255,.12); }
+    .faq summary { list-style: none; cursor: pointer; font-size: 15px; line-height: 1.35; font-weight: 500; color: var(--white); display: grid; grid-template-columns: 1fr 24px; gap: 12px; align-items: center; }
+    .faq summary::-webkit-details-marker { display: none; }
+    .faq summary::after { content: "+"; font-size: 18px; color: var(--accent); transition: transform .3s ease; font-weight: 400; line-height: 1; justify-self: end; }
+    .faq details[open] summary::after { transform: rotate(45deg); }
+    .faq .ans { margin-top: 10px; color: rgba(255,255,255,.75); font-size: 14px; line-height: 1.6; max-width: 70ch; }
+    .faq .ans strong { color: var(--white); font-weight: 500; }
+
+    .footer { padding: 24px var(--gutter); background: var(--ink); color: rgba(255,255,255,.55); border-top: 1px solid rgba(255,255,255,.08); display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; align-items: center; font-family: var(--mono); font-size: 11px; letter-spacing: .02em; }
+    .footer a:hover { color: var(--accent); }
+
+    /* Certification links hover */
+    a[href*="scrum"]:hover img, a[href*="tableau"]:hover img, a[href*="google"]:hover img, a[href*="microsoft"]:hover img { opacity: 1 !important; }
+
+    .reveal { opacity: 0; transform: translateY(12px); transition: opacity .5s ease, transform .5s ease; }
+    .reveal.in { opacity: 1; transform: translateY(0); }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+      .reveal { opacity: 1; transform: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav" aria-label="Primary">
+    <div class="nav-inner">
+      <a href="#top" class="logo">Rohan Paliwal</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#coach">Coaching</a>
+        <a href="#writing">Writing</a>
+        <a href="#judging">Judging</a>
+        <a href="#education">Education</a>
+      </div>
+      <a href="#contact" class="nav-cta">Get in touch</a>
+    </div>
+  </nav>
+
+  <!-- HERO - Variant C (Minimal, locked) -->
+  <header class="hero section" id="top">
+    <div class="container">
+      <div class="reveal">
+        <img class="headshot" src="headshot.jpg" alt="Rohan Paliwal" />
+        <h1>Hey, I'm <strong>Rohan</strong></h1>
+        <p class="tag">Product Leader | Mentor | Builder of People and Products</p>
+        <p class="desc">Experienced Product Manager at Western Union with 8+ years driving product strategy, mentoring aspiring PMs, and delivering impactful solutions.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#about">Learn More About Me</a>
+          <a class="btn btn-ghost" href="#contact">Get In Touch</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="eyebrow">01 · About</span>
+        <h2>Engineer who followed the "why."</h2>
+      </div>
+
+      <div class="about-stats reveal">
+        <div class="stat-box"><div class="stat-num">8<span>+</span></div><div class="stat-lbl">Years Experience</div></div>
+        <div class="stat-box"><div class="stat-num">50<span>+</span></div><div class="stat-lbl">PMs Mentored</div></div>
+        <div class="stat-box"><div class="stat-num" style="font-size: clamp(18px, 2.2vw, 24px); line-height: 1.2;">Extraordinary visa</div><div class="stat-lbl">Granted in Product Management</div></div>
+      </div>
+
+      <div class="about-grid">
+
+        <div class="about-body reveal">
+          <p>I started my career as an engineer, deeply curious about how things work and driven to build efficient, scalable solutions. Over time, I found myself wanting to understand more than the <em>how</em> — I wanted to know the <em>why</em>.</p>
+          <p><strong>Why are we building this? Who is it for? How do we know it's the right problem to solve?</strong> That curiosity led me to start joining product calls outside my core responsibilities. I'd listen in, ask questions, and study how PMs thought, communicated, and made decisions. It didn't take long before I realized this is what I wanted to do.</p>
+          <p>I rose to lead initiatives on products that serve hundreds of thousands of customers daily — at <strong>BlackRock</strong>, <strong>GRUBBRR</strong>, and <strong>Western Union</strong>. Today, I also mentor PMs as a coach on <strong>Leland</strong>, focused on visa candidates and non-traditional backgrounds — a path I walked myself.</p>
+        </div>
+
+        <aside class="about-side reveal">
+          <h4>At a glance</h4>
+          <ul>
+            <li><span class="k">Role</span><span class="v">Manager, Product Management</span></li>
+            <li><span class="k">Company</span><span class="v"><strong>Western Union</strong></span></li>
+            <li><span class="k">Since</span><span class="v">Jan 2024</span></li>
+            <li><span class="k">Visa</span><span class="v"><strong>O-1A</strong> Extraordinary Ability</span></li>
+            <li><span class="k">Location</span><span class="v">Miami, FL · EST</span></li>
+            <li><span class="k">Open to</span><span class="v">Senior Product Manager</span></li>
+          </ul>
+        </aside>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE — collapsible, all closed by default -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="eyebrow">02 · Experience</span>
+        <h2>Nearly a decade in regulated, self-serve software.</h2>
+      </div>
+
+      <div class="exp-hint reveal">
+        <button id="expandAll">Expand all</button> · <button id="collapseAll">Collapse all</button>
+      </div>
+
+      <div class="exp" id="expList">
+
+        <article class="exp-item reveal">
+          <button class="exp-summary" aria-expanded="false">
+            <span class="co-logo">
+              <img src="https://img.logo.dev/westernunion.com?token=pk_L0UVOvgvSNC8BY-r0um6BA" alt="Western Union logo" />
+            </span>
+            <span class="exp-main">
+              <span class="role">Manager, Product Management</span>
+              <span class="co-line"><strong>Western Union</strong><span class="sep">·</span>Global fintech &amp; digital</span>
+            </span>
+            <span class="exp-meta">
+              <span>Jan 2024 – Present</span>
+              <span>Miami, FL <span class="exp-chev">+</span></span>
+            </span>
+          </button>
+          <div class="exp-body">
+            <ul class="exp-bullets">
+              <li><strong>WU Rewards:</strong> Rebuilt Deals &amp; Discounts UX across iOS/Android/Web. Led a 10+ person squad. <strong>2M+ MAUs in Canada</strong>, scaled to <strong>10+ markets</strong>, <strong>+40% engagement</strong>, and grew ARR <strong>$1M → $7M in 12 months</strong>.</li>
+              <li><strong>Digital platform optimization:</strong> Amplitude-driven 6-month roadmap across iOS/Android/Web — <strong>+7pp digital conversion lift</strong>.</li>
+              <li><strong>Personalization platform:</strong> CMS-powered with ML recommendations — <strong>~70% avg engagement increase</strong> across services worldwide.</li>
+              <li><strong>Kiosk friction:</strong> Quantum Metric session analysis lifted <strong>returning-user conversion 50% → 70%</strong>.</li>
+              <li><strong>Analytics foundation:</strong> Built WU's Amplitude framework from scratch + Optimizely A/B pipeline.</li>
+              <li><strong>People leadership:</strong> Managed, coached, and developed <strong>4 product managers</strong>.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="exp-item reveal">
+          <button class="exp-summary" aria-expanded="false">
+            <span class="co-logo">
+              <img src="https://img.logo.dev/grubbrr.com?token=pk_L0UVOvgvSNC8BY-r0um6BA" alt="GRUBBRR logo" />
+            </span>
+            <span class="exp-main">
+              <span class="role">Technical Product Manager</span>
+              <span class="co-line"><strong>GRUBBRR</strong><span class="sep">·</span>Self-ordering kiosks (startup)</span>
+            </span>
+            <span class="exp-meta">
+              <span>Sep 2022 – Jan 2024</span>
+              <span>Boca Raton, FL <span class="exp-chev">+</span></span>
+            </span>
+          </button>
+          <div class="exp-body">
+            <ul class="exp-bullets">
+              <li><strong>0-to-1 GEM platform:</strong> Led UX and development from inception to launch — cut debugging cost, <strong>lifted overall system health / client product growth by 20%+</strong>.</li>
+              <li><strong>Experimentation:</strong> Revamped kiosk F&amp;B e-commerce funnel via Optimizely A/B tests — <strong>+15% conversion rate</strong>.</li>
+              <li><strong>Backlog &amp; delivery:</strong> Owned full lifecycle — defect triage, KPI analysis, kiosk strategy.</li>
+              <li><strong>Requirements:</strong> Analyzed POS APIs and customer data for PRDs, technical user stories, and acceptance criteria.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="exp-item reveal">
+          <button class="exp-summary" aria-expanded="false">
+            <span class="co-logo">
+              <img src="https://img.logo.dev/blackrock.com?token=pk_L0UVOvgvSNC8BY-r0um6BA" alt="BlackRock logo" />
+            </span>
+            <span class="exp-main">
+              <span class="role">Product Manager · APM</span>
+              <span class="co-line"><strong>BlackRock</strong><span class="sep">·</span>Trading workflows &amp; fintech</span>
+            </span>
+            <span class="exp-meta">
+              <span>Aug 2017 – Apr 2021</span>
+              <span>Gurgaon, India <span class="exp-chev">+</span></span>
+            </span>
+          </button>
+          <div class="exp-body">
+            <ul class="exp-bullets">
+              <li><strong>UX &amp; conversion:</strong> Identified funnel friction, aligned stakeholders on fix priorities — <strong>+15% user conversion</strong>.</li>
+              <li><strong>Research &amp; roadmap:</strong> Usability testing with <strong>15 customers</strong>, <strong>12+ interviews</strong>, <strong>12 dashboard enhancements</strong> across two sprints.</li>
+              <li><strong>Delivery:</strong> Managed <strong>30+ software releases across 4 applications</strong> used to conduct and approve trades.</li>
+              <li><strong>Trading Workflow Dashboard:</strong> Ran workshop for <strong>20 international users</strong> — <strong>+40% efficiency</strong>.</li>
+              <li><strong>Program leadership:</strong> Led onboarding for <strong>54 interns</strong>, lifting absorption <strong>+35%</strong>.</li>
+              <li><strong>Backlog:</strong> Prioritized cross-functional backlog — <strong>+30% feature delivery velocity</strong>.</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS — 5 bars only, center-aligned -->
+  <section class="section" id="skills">
+    <div class="container" style="max-width: 800px; margin: 0 auto;">
+      <div class="sec-head reveal" style="text-align: center;">
+        <span class="eyebrow">03 · Skills &amp; Expertise</span>
+        <h2>How I operate.</h2>
+        <p style="margin-left: auto; margin-right: auto;">Core PM skills refined through 8+ years of hands-on product management.</p>
+      </div>
+
+      <div class="skills-list reveal">
+        <div class="skill-item">
+          <div class="skill-header">
+            <h4>Product Analytics &amp; Experimentation <span class="skill-dots-inline"><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span></span></h4>
+          </div>
+          <p>Built Amplitude dashboards to generate insights and ran A/B tests from scratch via Optimizely at Western Union.</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-header">
+            <h4>Roadmap &amp; Prioritization <span class="skill-dots-inline"><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span></span></h4>
+          </div>
+          <p>Identified user funnel friction through data analysis and built roadmaps to resolve pain points.</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-header">
+            <h4>Cross-functional Leadership <span class="skill-dots-inline"><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span></span></h4>
+          </div>
+          <p>Shipped fintech products across compliance, legal, privacy, risk, and security stakeholders.</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-header">
+            <h4>User Experience Optimization <span class="skill-dots-inline"><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span></span></h4>
+          </div>
+          <p>Improved conversion rates and engagement through UX friction analysis and iterative optimization.</p>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-header">
+            <h4>PM Coaching &amp; Mentorship <span class="skill-dots-inline"><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span></span></h4>
+          </div>
+          <p>Mentored 4 PMs at Western Union. Leland 5.0★ coach, Top 5% TopMate expert, 620+ Udemy enrollments.</p>
+        </div>
+      </div>
+
+      <div class="tools reveal">
+        <div><h4>Tools used</h4></div>
+        <div class="tool-items">
+          <div class="tool-item">
+            <img src="https://img.logo.dev/amplitude.com?token=pk_L0UVOvgvSNC8BY-r0um6BA" alt="Amplitude" />
+            <span>Amplitude</span>
+          </div>
+          <div class="tool-item">
+            <img src="https://img.logo.dev/adobe.com?token=pk_L0UVOvgvSNC8BY-r0um6BA" alt="Adobe" />
+            <span>Adobe CJA</span>
+          </div>
+          <div class="tool-item">
+            <img src="https://img.logo.dev/mixpanel.com?token=pk_L0UVOvgvSNC8BY-r0um6BA" alt="Mixpanel" />
+            <span>Mixpanel</span>
+          </div>
+          <div class="tool-item">
+            <img src="https://img.logo.dev/quantummetric.com?token=pk_L0UVOvgvSNC8BY-r0um6BA" alt="Quantum Metric" />
+            <span>Quantum Metric</span>
+          </div>
+          <div class="tool-item">
+            <img src="https://img.logo.dev/optimizely.com?token=pk_L0UVOvgvSNC8BY-r0um6BA" alt="Optimizely" />
+            <span>Optimizely</span>
+          </div>
+          <div class="tool-item">
+            <img src="https://img.logo.dev/figma.com?token=pk_L0UVOvgvSNC8BY-r0um6BA" alt="Figma" />
+            <span>Figma</span>
+          </div>
+          <div class="tool-item">
+            <img src="https://img.logo.dev/atlassian.com?token=pk_L0UVOvgvSNC8BY-r0um6BA" alt="Jira" />
+            <span>Jira</span>
+          </div>
+          <div class="tool-item">
+            <img src="https://img.logo.dev/microsoft.com?token=pk_L0UVOvgvSNC8BY-r0um6BA" alt="Power BI" />
+            <span>Power BI</span>
+          </div>
+          <div class="tool-item">
+            <img src="https://img.logo.dev/tableau.com?token=pk_L0UVOvgvSNC8BY-r0um6BA" alt="Tableau" />
+            <span>Tableau</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certifications moved from education -->
+      <div style="margin-top: 32px; padding-top: 28px; border-top: 1px solid var(--rule);">
+        <h4 style="font-family: var(--mono); font-size: 11px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); text-align: center; margin-bottom: 20px;">Certifications</h4>
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: center;">
+          <a href="https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster" target="_blank" rel="noopener" style="display: flex; flex-direction: column; align-items: center; gap: 8px; transition: opacity .2s;">
+            <img src="https://img.logo.dev/scrumalliance.org?token=pk_L0UVOvgvSNC8BY-r0um6BA" alt="Scrum Alliance" style="height: 32px; width: auto; opacity: .85;" />
+            <span style="font-size: 11px; color: var(--muted); font-family: var(--mono); letter-spacing: .03em; text-align: center;">Scrum Master (CSM)</span>
+          </a>
+          <a href="https://www.scrumalliance.org/get-certified/product-owner-track/certified-scrum-product-owner" target="_blank" rel="noopener" style="display: flex; flex-direction: column; align-items: center; gap: 8px; transition: opacity .2s;">
+            <img src="https://img.logo.dev/scrumalliance.org?token=pk_L0UVOvgvSNC8BY-r0um6BA" alt="Scrum Alliance" style="height: 32px; width: auto; opacity: .85;" />
+            <span style="font-size: 11px; color: var(--muted); font-family: var(--mono); letter-spacing: .03em; text-align: center;">Product Owner (CSPO)</span>
+          </a>
+          <a href="https://www.tableau.com/learn/certification" target="_blank" rel="noopener" style="display: flex; flex-direction: column; align-items: center; gap: 8px; transition: opacity .2s;">
+            <img src="https://img.logo.dev/tableau.com?token=pk_L0UVOvgvSNC8BY-r0um6BA" alt="Tableau" style="height: 32px; width: auto; opacity: .85;" />
+            <span style="font-size: 11px; color: var(--muted); font-family: var(--mono); letter-spacing: .03em; text-align: center;">Tableau</span>
+          </a>
+          <a href="https://skillshop.exceedlms.com/student/catalog/list?category_ids=53-google-analytics-4" target="_blank" rel="noopener" style="display: flex; flex-direction: column; align-items: center; gap: 8px; transition: opacity .2s;">
+            <img src="https://img.logo.dev/google.com?token=pk_L0UVOvgvSNC8BY-r0um6BA" alt="Google" style="height: 32px; width: auto; opacity: .85;" />
+            <span style="font-size: 11px; color: var(--muted); font-family: var(--mono); letter-spacing: .03em; text-align: center;">Google Analytics</span>
+          </a>
+          <a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/" target="_blank" rel="noopener" style="display: flex; flex-direction: column; align-items: center; gap: 8px; transition: opacity .2s;">
+            <img src="https://img.logo.dev/microsoft.com?token=pk_L0UVOvgvSNC8BY-r0um6BA" alt="Microsoft" style="height: 32px; width: auto; opacity: .85;" />
+            <span style="font-size: 11px; color: var(--muted); font-family: var(--mono); letter-spacing: .03em; text-align: center;">Azure (AZ-900)</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- COACH -->
+  <section class="section" id="coach">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="eyebrow">04 · Coaching &amp; mentorship</span>
+        <h2>I give back what I learned the hard way.</h2>
+      </div>
+
+      <div class="coach reveal">
+        <div>
+          <span class="eyebrow">PM Coach on Leland, TopMate, Udemy &amp; Supra member</span>
+          <h3>Teaching candidates with Product Management skills and helping them land their dream jobs</h3>
+          <p>"I specialize in helping individuals secure PM roles. My mentorship style is clear, practical, and growth-focused."</p>
+        </div>
+
+        <div>
+          <div class="coach-stats">
+            <a href="https://www.joinleland.com/coach/rohan-p-3" target="_blank" rel="noopener" class="coach-stat" style="cursor: pointer; transition: all .2s;">
+              <img src="https://img.logo.dev/joinleland.com?token=pk_L0UVOvgvSNC8BY-r0um6BA" alt="Leland" style="height: 24px; width: auto; margin-bottom: 6px; opacity: .9;" />
+              <div style="font-family: var(--mono); font-size: 10px; color: rgba(255,255,255,.5); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 10px;">Leland</div>
+              <strong>5.0<em>★</em></strong>
+              <span>16 reviews</span>
+            </a>
+            
+            <a href="https://topmate.io/rohan_paliwal39" target="_blank" rel="noopener" class="coach-stat" style="cursor: pointer; transition: all .2s;">
+              <img src="https://img.logo.dev/topmate.io?token=pk_L0UVOvgvSNC8BY-r0um6BA" alt="TopMate" style="height: 24px; width: auto; margin-bottom: 6px; opacity: .9;" />
+              <div style="font-family: var(--mono); font-size: 10px; color: rgba(255,255,255,.5); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 10px;">TopMate</div>
+              <strong>Top <em>5%</em></strong>
+              <span>PM expert</span>
+            </a>
+            
+            <a href="https://www.udemy.com/course/b2b2c-product-management-101/" target="_blank" rel="noopener" class="coach-stat" style="cursor: pointer; transition: all .2s;">
+              <img src="https://img.logo.dev/udemy.com?token=pk_L0UVOvgvSNC8BY-r0um6BA" alt="Udemy" style="height: 24px; width: auto; margin-bottom: 6px; opacity: .9;" />
+              <div style="font-family: var(--mono); font-size: 10px; color: rgba(255,255,255,.5); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 10px;">Udemy</div>
+              <strong>620<em>+</em></strong>
+              <span>Enrollments · 81 countries</span>
+            </a>
+            
+            <a href="https://www.joinsupra.com/" target="_blank" rel="noopener" class="coach-stat" style="cursor: pointer; transition: all .2s;">
+              <img src="https://img.logo.dev/joinsupra.com?token=pk_L0UVOvgvSNC8BY-r0um6BA" alt="Supra" style="height: 24px; width: auto; margin-bottom: 6px; opacity: .9;" />
+              <div style="font-family: var(--mono); font-size: 10px; color: rgba(255,255,255,.5); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 10px;">Supra</div>
+              <strong>Member</strong>
+              <span>Apr 2025 - Present</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WRITING & EDUCATION -->
+  <section class="section" id="writing">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="eyebrow">05 · Writing &amp; credentials</span>
+        <h2>Where I've published.</h2>
+      </div>
+
+      <div class="writings">
+
+        <a class="writing reveal" href="https://www.productledalliance.com/pubs-scoring-template-framework/" target="_blank" rel="noopener">
+          <div class="left">
+            <h3>PUBS prioritization scoring framework</h3>
+            <div class="meta"><span>Framework</span><span class="sep">·</span><span>Mar 2026</span><span class="sep">·</span><span>Product-Led Alliance</span></div>
+          </div>
+          <span class="arrow">↗</span>
+        </a>
+
+        <a class="writing reveal" href="https://www.productledalliance.com/kiosk-product-management-a-b2b2c-approach/" target="_blank" rel="noopener">
+          <div class="left">
+            <h3>Kiosk product management: a B2B2C approach</h3>
+            <div class="meta"><span>Article</span><span class="sep">·</span><span>Nov 2025</span><span class="sep">·</span><span>Product-Led Alliance</span></div>
+          </div>
+          <span class="arrow">↗</span>
+        </a>
+
+        <a class="writing reveal" href="https://www.joinleland.com/library/a/finance-product-manager" target="_blank" rel="noopener">
+          <div class="left">
+            <h3>Finance Product Manager career guide</h3>
+            <div class="meta"><span>Article</span><span class="sep">·</span><span>Aug 2025</span><span class="sep">·</span><span>Leland</span></div>
+          </div>
+          <span class="arrow">↗</span>
+        </a>
+
+        <a class="writing reveal" href="https://www.udemy.com/course/b2b2c-product-management-101/" target="_blank" rel="noopener">
+          <div class="left">
+            <h3>B2B2C Product Management 101 — 620+ enrollments, 81 countries</h3>
+            <div class="meta"><span>Course</span><span class="sep">·</span><span>Apr 2025</span><span class="sep">·</span><span>Udemy</span></div>
+          </div>
+          <span class="arrow">↗</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- JUDGING & SPEAKING -->
+  <section class="section" id="judging" style="background: var(--bg-alt);">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="eyebrow">06 · Judging &amp; Speaking</span>
+        <h2>Giving back to the community.</h2>
+      </div>
+
+      <div style="display: grid; gap: 16px; max-width: 720px; margin: 0 auto;">
+        
+        <div class="writing reveal" style="cursor: default; pointer-events: none;">
+          <div class="left">
+            <h3>BIG Artificial Intelligence Excellence Awards</h3>
+            <div class="meta"><span>Judge</span><span class="sep">·</span><span>2026</span><span class="sep">·</span><span>Business Intelligence Group</span></div>
+          </div>
+        </div>
+
+        <div class="writing reveal" style="cursor: default; pointer-events: none;">
+          <div class="left">
+            <h3>VE-JV National Business Pitch Championship</h3>
+            <div class="meta"><span>Judge</span><span class="sep">·</span><span>2025</span><span class="sep">·</span><span>Virtual Enterprises International</span></div>
+          </div>
+        </div>
+
+        <div class="writing reveal" style="cursor: default; pointer-events: none;">
+          <div class="left">
+            <h3>Technovation Girls Global Competition</h3>
+            <div class="meta"><span>Judge</span><span class="sep">·</span><span>2025</span><span class="sep">·</span><span>Technovation</span></div>
+          </div>
+        </div>
+
+        <div class="writing reveal" style="cursor: default; pointer-events: none;">
+          <div class="left">
+            <h3>NFTE Southeast Regional Entrepreneurial Challenge</h3>
+            <div class="meta"><span>Judge</span><span class="sep">·</span><span>2025</span><span class="sep">·</span><span>Network for Teaching Entrepreneurship</span></div>
+          </div>
+        </div>
+
+        <div class="writing reveal" style="cursor: default; pointer-events: none;">
+          <div class="left">
+            <h3>Business Intelligence Group Sammy Awards</h3>
+            <div class="meta"><span>Judge</span><span class="sep">·</span><span>2024-2025</span><span class="sep">·</span><span>BIG</span></div>
+          </div>
+        </div>
+
+        <div class="writing reveal" style="cursor: default; pointer-events: none;">
+          <div class="left">
+            <h3>Hidden Leaf Hackathon &amp; CodePi Hackathon</h3>
+            <div class="meta"><span>Judge</span><span class="sep">·</span><span>2024-2025</span><span class="sep">·</span><span>Student Hackathons</span></div>
+          </div>
+        </div>
+
+        <div class="writing reveal" style="cursor: default; pointer-events: none;">
+          <div class="left">
+            <h3>CMU Heinz College PM Club Speaker</h3>
+            <div class="meta"><span>Guest Speaker</span><span class="sep">·</span><span>2024-2025</span><span class="sep">·</span><span>Carnegie Mellon University</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WRITING & EDUCATION CONTINUED -->
+  <section class="section" id="writing-continued">
+    <div class="container">
+
+      <!-- Education -->
+      <div id="education"></div>
+      <h3 style="margin-top: 44px; font-size: 15px; color: var(--muted); font-family: var(--mono); font-weight: 500; letter-spacing: .06em; text-transform: uppercase;">Education</h3>
+      <div class="edu-grid">
+
+        <div class="edu-card reveal">
+          <div class="edu-logo">
+            <img src="https://img.logo.dev/cmu.edu?token=pk_L0UVOvgvSNC8BY-r0um6BA" alt="Carnegie Mellon University" />
+          </div>
+          <div class="edu-body">
+            <h4>M.S. Information Systems &amp; Management</h4>
+            <div class="school">Carnegie Mellon University</div>
+            <div class="years">2021 – 2022</div>
+            <p>STEM-designated. Product Management concentration. Advanced coursework in product strategy, data analytics, and technology management.</p>
+            <span class="gpa">GPA 3.80 · Distinction</span>
+          </div>
+        </div>
+
+        <div class="edu-card reveal">
+          <div class="edu-logo">
+            <img src="https://img.logo.dev/manipal.edu?token=pk_L0UVOvgvSNC8BY-r0um6BA" alt="Manipal Institute of Technology" />
+          </div>
+          <div class="edu-body">
+            <h4>B.Tech, Information Technology</h4>
+            <div class="school">Manipal Institute of Technology</div>
+            <div class="years">2013 – 2017</div>
+            <p>Foundation in software engineering, systems design, and project management.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="reveal">
+        <span class="eyebrow" style="color: var(--accent);">07 · Contact</span>
+        <h2>Let's talk about the <strong>product bet</strong> you're making.</h2>
+        <p class="sub">Open to Senior Product Manager roles in fintech, B2B2C, self-serve, or platform. Miami / remote / EST-friendly hybrid. Visa-ready (O-1A).</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <div class="contact-links reveal">
+          <a class="contact-link" href="mailto:Paliwalrohan39@gmail.com">
+            <div><span class="k">Email</span><span class="v">Paliwalrohan39@gmail.com</span></div>
+            <span class="arrow">↗</span>
+          </a>
+          <a class="contact-link" href="https://www.linkedin.com/in/paliwalrohan/" target="_blank" rel="noopener">
+            <div><span class="k">LinkedIn</span><span class="v">linkedin.com/in/paliwalrohan</span></div>
+            <span class="arrow">↗</span>
+          </a>
+          <a class="contact-link" href="https://www.joinleland.com/coach/rohan-p-3/product-management" target="_blank" rel="noopener">
+            <div><span class="k">Book a session</span><span class="v">Coach on Leland · 5.0★</span></div>
+            <span class="arrow">↗</span>
+          </a>
+          <a class="contact-link" href="resume.pdf" download>
+            <div><span class="k">Resume (Apr 2026)</span><span class="v">Download PDF</span></div>
+            <span class="arrow">↗</span>
+          </a>
+        </div>
+
+        <aside class="recruiter reveal">
+          <span class="eyebrow">For recruiters</span>
+          <h3>What I'm looking for</h3>
+          <ul>
+            <li>Senior Product Manager roles</li>
+            <li>Fintech, payments, Self-serve SaaS</li>
+            <li>Open to relocate anywhere within the US</li>
+            <li>Teams where PM owns the outcome</li>
+            <li>Currently on O-1A · Visa sponsorship needed</li>
+          </ul>
+        </aside>
+
+      </div>
+
+      <!-- FAQ collapsed -->
+      <div class="faq-wrap reveal">
+        <span class="eyebrow" style="color: var(--accent);">Frequently asked</span>
+        <h3>Questions recruiters usually ask.</h3>
+        <div class="faq">
+          <details>
+            <summary>Do you need visa sponsorship?</summary>
+            <div class="ans">Yes. Even though I hold an <strong>O-1A visa for extraordinary ability</strong> for contributions to product management, to change employers, I will need visa sponsorship. I am authorized to work in the U.S.</div>
+          </details>
+          <details>
+            <summary>Are you open to relocation?</summary>
+            <div class="ans">Yes, I am open to <strong>remote, hybrid, or relocation</strong> to any location within the USA.</div>
+          </details>
+          <details>
+            <summary>How technical are you?</summary>
+            <div class="ans">Engineering undergrad. Comfortable with APIs, event platforms, observability, ML-driven systems, and fintech data flows. Built GEM (event platform) at GRUBBRR end-to-end and the Amplitude + Optimizely stack at Western Union from scratch. I don't write production code, but I can read a PR and go deep on architecture when it matters.</div>
+          </details>
+          <details>
+            <summary>What's your fintech experience, specifically?</summary>
+            <div class="ans">At <strong>BlackRock</strong>, I managed the trading workflow dashboard for institutional clients. At <strong>Western Union</strong>, I lead product for a global remittance kiosk and the WU Rewards platform (<strong>$1M → $7M ARR</strong>). Compliance, legal, privacy, and risk are co-authors of the spec, not afterthoughts.</div>
+          </details>
+          <details>
+            <summary>Do you want to manage people or be an IC?</summary>
+            <div class="ans">Either. I have mentored PMs at work and enjoy coaching (Leland, TopMate, Udemy). Equally energized by IC work as a Senior/Principal PM on a hard problem.</div>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div>© <span id="yr"></span> Rohan Paliwal · Last updated Apr 2026</div>
+    <div>
+      <a href="mailto:Paliwalrohan39@gmail.com">Email</a> ·
+      <a href="https://www.linkedin.com/in/paliwalrohan/" target="_blank" rel="noopener">LinkedIn</a> ·
+      <a href="https://www.joinleland.com/coach/rohan-p-3/product-management" target="_blank" rel="noopener">Leland</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("yr").textContent = new Date().getFullYear();
+
+    // Experience collapsibles
+    document.querySelectorAll(".exp-summary").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const item = btn.closest(".exp-item");
+        const open = item.classList.toggle("open");
+        btn.setAttribute("aria-expanded", String(open));
+      });
+    });
+    document.getElementById("expandAll")?.addEventListener("click", () => {
+      document.querySelectorAll(".exp-item").forEach(i => {
+        i.classList.add("open");
+        i.querySelector(".exp-summary")?.setAttribute("aria-expanded", "true");
+      });
+    });
+    document.getElementById("collapseAll")?.addEventListener("click", () => {
+      document.querySelectorAll(".exp-item").forEach(i => {
+        i.classList.remove("open");
+        i.querySelector(".exp-summary")?.setAttribute("aria-expanded", "false");
+      });
+    });
+
+    // Reveal on scroll
+    (function(){
+      const els = document.querySelectorAll(".reveal");
+      if (!("IntersectionObserver" in window)) { els.forEach(e => e.classList.add("in")); return; }
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } });
+      }, { threshold: 0.12, rootMargin: "0px 0px -40px 0px" });
+      els.forEach(e => io.observe(e));
+    })();
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener("click", (ev) => {
+        const id = a.getAttribute("href");
+        if (id.length > 1) {
+          const t = document.querySelector(id);
+          if (t) {
+            ev.preventDefault();
+            const top = t.getBoundingClientRect().top + window.pageYOffset - 60;
+            window.scrollTo({ top, behavior: "smooth" });
+            history.pushState(null, "", id);
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
